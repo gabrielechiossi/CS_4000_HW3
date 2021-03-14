@@ -15,7 +15,8 @@
 #include <array>
 
 using namespace std;
-#include "GameOfLife.h"
+#include "GameOfLifeSequential.h"
+#include "GameOfLifeParallel.h"
 
 
 //*****************************************************************************
