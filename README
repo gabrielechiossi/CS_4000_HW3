@@ -1,2 +1,5 @@
-Compile:
-g++ GOL_display.cc -lncurses
+SEQUENTIAL VERSION:
+insert #include "GameOfLifeSequential.h" in Test_Harness.cc
+
+PARALLEL VERSION 2:
+insert #include "GameOfLifeParallel2.h" in Test_Harness.cc

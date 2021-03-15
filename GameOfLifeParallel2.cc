@@ -66,7 +66,7 @@ void GameOfLife::Conway(vector<vector<int> > &board, vector<vector<int> > &futur
     int neighbor;
     //here is where we scan the matrix and try to find the position x and y of every cell
     //we split the rows to the 4 threads
-    for(int x = i; x < board.size(); x+=4){
+    for(int x = ((i*board.size())/4); x < ((i+1)*(board.size()))/4; x++){
         for(int y = 0 ; y < board.size(); y++){
             //for each cell we first find how many neighbor it has with checkNeighbor then
             //we update the cell based on the rules given in futureGrid

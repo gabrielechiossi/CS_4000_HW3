@@ -1,5 +1,5 @@
 /**
- *   @file: GameOfLifeParallel.h
+ *   @file: GameOfLifeParallel2.h
  * @author: Gabriele Chiossi
  *   @date: 03/11/21
  */
@@ -10,7 +10,6 @@
 #include <thread>
 #include <vector>
 #include <array>
-#include <omp.h>
 #include <pthread.h>
 #include <mutex>
 using namespace std;

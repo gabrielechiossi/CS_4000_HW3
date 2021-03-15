@@ -16,7 +16,7 @@
 
 using namespace std;
 #include "GameOfLifeSequential.h"
-#include "GameOfLifeParallel.h"
+#include "GameOfLifeParallel2.h"
 
 
 //*****************************************************************************
